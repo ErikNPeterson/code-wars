@@ -48,7 +48,3 @@ function order(words) {
     return a.match(/[\d+]/)[0] - b.match(/[\d+]/)[0];
   }).join(' ');
 }
-
-var new_array = arr.map(function callback(currentValue[, index[, array]]) {
-  // Return element for new_array
-}[, thisArg])
