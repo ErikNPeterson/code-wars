@@ -2,10 +2,14 @@ var args = process.argv;
 process.argv.splice(0, 2);
 var arrayOfInputs = process.argv;
 
-////////New another attempt
+////////New attempts!
 
 function reverseWords(wordsArray) {
   return wordsArray.map(item => item.split('').reverse().join('') + "\n").toString().replace(/,/g, '');
+}
+
+function reverseWords(wordsArray) {
+  return wordsArray.map(item => item.split('').reverse().join('')).join('\n');
 }
 
 
