@@ -1,7 +1,3 @@
-// I could have used a charAt
-// could have also used a object with key value pairs to 
-// repaces the letters 
-
 var args = process.argv;
 var originalPassword = process.argv[2];
 
