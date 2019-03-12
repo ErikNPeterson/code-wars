@@ -12,7 +12,6 @@ function reverseWords(wordsArray) {
   return wordsArray.map(item => item.split('').reverse().join('')).join('\n');
 }
 
-
 console.log(reverseWords(arrayOfInputs))
 
 //////// New 
@@ -59,12 +58,9 @@ console.log(reverseWords(arrayOfInputs))
 
 
 // function reverseWords(wordsArray) {
-//   // looping through the array
 //   let newString = "";
 //   wordsArray.forEach((item, i) => {
-//     // giving a place for the word to go
 //     i === 0 ? null : newString += "\n"
-//     // looping through each word
 //     for (let i = (item.length - 1); i >= 0; i--) {
 //       newString += item[i];
 //     }
@@ -72,4 +68,11 @@ console.log(reverseWords(arrayOfInputs))
 //   return newString
 // }
 
+
+// function reverseWords(wordsArray) {
+//   wordsArray.forEach((item, i) => {
+//     i === 0 ? null : newString += "\n"
+//     return item.split('').reverse().join('')
+//   });
+// }
 
